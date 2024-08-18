@@ -11,12 +11,18 @@
 }
 .links {
   @apply font-normal;
-  color: rgb(49, 49, 148);
+  color: #2a356f;
+  border-left: 5px solid transparent;
 }
+.links:hover,
 .activeLink {
   @apply font-semibold;
 
-  border-left: 5px solid rgb(49, 49, 148);
+  border-left: 5px solid #2a356f;
   border-radius: 0 15px 15px 0;
   background-color: #93c5fd;
+}
+
+.myBorderLeftBottom {
+  border-bottom-left-radius: 44px;
 }

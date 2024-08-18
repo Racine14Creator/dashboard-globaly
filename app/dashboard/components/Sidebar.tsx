@@ -23,7 +23,7 @@ export default function Sidebar() {
               height={84}
             />
           </Link>
-          <ChevronLeft className='w-[29px] h-[29px] cursor-pointer font-bold' />
+          <ChevronLeft className='w-8 h-8 text-2xl text-black cursor-pointer font-bold' />
         </div>
       </div>
 
